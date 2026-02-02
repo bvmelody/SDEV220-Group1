@@ -14,17 +14,17 @@ class InputCollector:
               print("that is not a valid number")
               continue
 
-        goodvalue = input("please put a source unit in here(meters" , "kilometers" , "centimeters" , "feet" , "inches" , "miles", "pounds" , "kilograms" , 
+           goodvalue = input("please put a source unit in here(meters" , "kilometers" , "centimeters" , "feet" , "inches" , "miles", "pounds" , "kilograms" , 
                     "liters", "gallons",  "quarts", "celcius", fahrenhiet):  ").strip()
-        if goodvalue not in self.MEASURING_UNITS:
+           if goodvalue not in self.MEASURING_UNITS:
            print("invalid source unit")
            continue
 
-        convertvalue = input("please put the unit you wish to convert to(meters" , "kilometers" , "centimeters" , "feet" , "inches" , "miles", "pounds" , "kilograms" , 
+           convertvalue = input("please put the unit you wish to convert to(meters" , "kilometers" , "centimeters" , "feet" , "inches" , "miles", "pounds" , "kilograms" , 
                       "liters", "gallons",  "quarts", "celcius", fahrenhiet):  ").strip()
-        if convertvalue not in self.MEASURING_UNITS:
+           if convertvalue not in self.MEASURING_UNITS:
            print("invalid converting unit")
            continue
 
-        return value, goodvalue, convertvalue
+           return value, goodvalue, convertvalue
            
