@@ -1,18 +1,16 @@
 
 """
 Project Name: Group2Project.py
-Author: Brenden Melody, Darcy Ralstin, Cailli Church
+Author: Brenden Melody, Wyatt Berry, Kevin Ramirez, Darrell Cassidy
 Date last updated: 5/10/2025
-Description: Program is designed to play a version of Pong that allows players
-            to choose their names and colors. This module operates the main menu to actually start the game
+Description: Program is designed to be a metric/imperial notation converter
 """
 
 from logging import root
 import tkinter as tk
 
 """
-This module actually initializes the main menu with the 3 main buttons to start the game
-change the name of the players, and to close the game.
+This module actually initializes the main menu with the 3 main buttons to start the program
 """
 
 def main():
