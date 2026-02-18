@@ -15,7 +15,7 @@ class InputCollector:
     MEASUREMENTS = {"length", "mass", "liquid", "temperature"}
 
     #creating constuctor -kevin
-    def __init__(self, value, goodvalue, convertvalue, measurement):
+    def __init__(self, value=None, goodvalue=None, convertvalue=None, measurement=None):
         self.value = value
         self.goodvalue = goodvalue
         self.convertvalue = convertvalue
