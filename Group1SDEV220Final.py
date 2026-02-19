@@ -236,14 +236,12 @@ def main():
     mainMenu.geometry("500x500")
     mainMenu['background'] = "white"
 
-    welcomeMessage = tk.Label(mainMenu, text="Welcome to our Metric/Imperial Converter!")
-    imperialToMetric = tk.Button(mainMenu, text="Imperial to Metric", command=open_conversion_popup)
-    metricToImperial = tk.Button(mainMenu, text="Metric to Imperial", command=open_conversion_popup)
+    welcomeMessage = tk.Label(mainMenu, text="Welcome to our Unit Converter!")
+    generalConversion = tk.Button(mainMenu, text="Unit Conversion", command=open_conversion_popup)
     exitButton = tk.Button(mainMenu, text="Exit", command=mainMenu.quit)
 
     welcomeMessage.pack()
-    imperialToMetric.pack()
-    metricToImperial.pack()
+    generalConversion.pack()
     exitButton.pack()
 
     mainMenu.mainloop()
